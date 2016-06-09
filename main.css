@@ -1,0 +1,97 @@
+body { font: 14px Arial; color: #5A676D; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+ul, p { margin: 0; padding: 0; }
+li { list-style: none; }
+nav ul, nav li { display: inline; }
+nav li a { color: #808080; margin-right: 20px; }
+nav li.current-page a { color: black; }
+main { width: 800px; margin: auto; overflow: auto; }
+footer { color: #959595; background-color: black; text-align: center; padding: 10px 0; }
+footer a { color: white; text-decoration: underline; }
+h3 { color: black; font-weight: normal; letter-spacing: 3px; }
+
+
+.wrapper { width: 1280px; margin: auto; }
+
+.masthead {
+    height: 250px;
+    padding-top: 125px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 1px 1px black;
+    text-align: center;
+    background: url(background.jpg) center no-repeat;
+}
+
+.logo {
+    display: inline-block;
+    padding: 5px 20px 5px 10px;
+}
+
+.pricing-table { text-align: center; }
+
+.pricing-table > ul > li {
+    float: left;
+    width: 31%;
+    margin: 0 0 35 2%;
+}
+
+.pricing-table li li {
+    background: #F7F7F7;
+    border: 1px solid #EBEBEB;
+    border-bottom: 0;
+    padding: 10px 0;
+}
+
+.pricing-table .option {
+    color: white;
+    font-size: 13px;
+    padding: 20px 0 30px;
+}
+
+.pricing-table .option span { display: block; }
+.pricing-table .option span:first-child { letter-spacing: 4px; }
+
+.pricing-table .personal .option,
+.pricing-table .personal .select-option span:hover { background: #289952; border: 1px solid #008F30; }
+.pricing-table .business .option,
+.pricing-table .business .select-option span:hover { background: #2C4387; border: 1px solid #001579; }
+.pricing-table .enterprise .option,
+.pricing-table .enterprise .select-option span:hover { background: #000; border: 1px solid #000; }
+
+.pricing-table .price { font-size: 80px; }
+.pricing-table .price:before { content: '$'; }
+.pricing-table .price:after {
+    content: 'PER MONTH';
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, .5);
+}
+
+.pricing-table .select-option {
+    padding: 25px 0;
+    border: 1px solid #EBEBEB;
+    text-align: center;
+    color: black;
+}
+
+.pricing-table .select-option span {
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid #DFDFDF;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.pricing-table .select-option span:hover { color: white; }
+
+.info-grid li {
+    float: left;
+    width: 48%;
+    margin: 0 0 35px 2%;
+}
+
+.info-grid p { line-height: 18px; }
